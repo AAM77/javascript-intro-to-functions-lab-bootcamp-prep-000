@@ -18,14 +18,14 @@ function sayHiToGrandma(string) {
   var lowerString = string.toLowerCase();
   var upperString = string.toUpperCase();
   var loveGrandma = "I love you, Grandma.";
-  
+
   if (string === lowerString) {
     return ("I can\'t hear you!")
   }
   else if (string === upperString) {
     return ("YES INDEED!")
   }
-  else if (string === "I love you, Grandma.") {
+  else if (string === loveGrandma) {
     return ("I love you, too.")
   }
 }
